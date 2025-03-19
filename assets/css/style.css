@@ -1,15 +1,45 @@
-/* root */
+/* dinh dang ban dau */
 * {
-  background-color: #fff;
-  color: #9da6a5;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.78; /* 177.778% */
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
 }
 
-.main-content{
-    width: 1170px;
-    padding: 0px 135px;
+:root {
+  --primary-color: #1ebfc1;
+}
+
+body {
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* --------------common------------- */
+
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* --------------header------------- */
+.header .body{
+    display: flex;
+}
+
+.header nav ul{
+    display: flex;
+    gap: 39px;
+    /* margin-left: 497px;
+    margin-right: 894px; */
 }
